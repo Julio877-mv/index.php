@@ -1,0 +1,42 @@
+<?php
+	
+
+	date_default_timezone_set('America/Sao_Paulo');
+	$data=date('d/m/Y H:i:s');
+
+	echo $data
+
+?>
+
+||||||||||||||||||||
+
+<?php
+	$titulo_site = 'Titulo do meu site';
+
+	include('header.php');	
+
+?>
+
+<h1>Meu conteúdo da Home!</h1>
+
+<?php
+
+include('footer.php');
+
+?>
+
+//FOOTER E HEADER//
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title><?php echo $titulo_site; ?></title>
+</head>
+<body>
+Aqui é meu header
+
+Aqui é meu footer
+</body>
+</html>
+
+

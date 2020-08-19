@@ -1,0 +1,44 @@
+<?php
+	
+	$nome = 'Júlio';
+
+		switch ($nome){
+			case 'Júlio':
+			echo 'Minha variavel é júlio';
+				break;
+			case 'João':
+				echo 'Minha variavel é joão';
+				break;
+		}
+	
+		//Break pode ser usado para os *comandos* for, loop, foreach, while, do e switch
+		//Continue pode ser  usado para loop, for, while, do e foreach
+	
+		
+		for($i = 0; $i <10; $i++){
+			if($i == 5 || $i===9)
+				continue; 
+		echo $i;
+		echo '<hr>';
+		
+		if($i == 5)
+			break;
+	
+		
+		} 	
+		
+	
+	
+	$var = true;
+
+	if($var == true)
+		$nome = 'Júlio';
+
+	$idade = 19;
+
+	echo $idade;
+	echo'<br>';
+	echo $nome;
+	
+
+?>

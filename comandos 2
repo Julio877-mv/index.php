@@ -1,0 +1,32 @@
+<?php
+
+	$conteudo = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus tempus urna at ultricies. Morbi eu felis fringilla, commodo ipsum at, volutpat sapien. Curabitur eu odio in mauris vulputate porttitor in in mauris. Donec vitae lorem placerat purus malesuada fermentum vel at urna. Sed pellentesque felis at ornare suscipit. Nam nec viverra risus. Nulla sed diam ac neque semper semper quis eget urna. Sed vel turpis facilisis, cursus orci vitae, sollicitudin libero. Ut varius magna eu felis laoreet efficitur.';
+
+		//Substr serve para recortar uma string
+		
+		echo substr($conteudo,0,20);
+
+		
+		//Explode serve para separar strings em uma array
+		$nome = 'Júlio César de Souza';
+
+		$nome = explode(' ',$nome);
+
+		print_r ($nome);
+
+		//Implode serve para separar strings em um delimitador
+		//No caso o espaço --> (' ')
+		$nome = implode( ' ', $nome);
+
+		echo ($nome);
+
+		//Strip_tag serve para retirar todo o código HTML.
+		
+		$conteudo = '<h1>Júlio</h1>Outra coisa';
+		
+		echo strip_tags($conteudo); 
+
+		//htmlentities serve para mostrar o código HTML na página
+
+		 echo htmlentities('<div></div>');
+?>

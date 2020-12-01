@@ -1,0 +1,24 @@
+<?php 
+
+ 		echo "Hello World";
+
+
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>"Hello Word!"</title>
+<style>
+	body{
+		background-color: blue;
+	}
+</style>	
+</head>
+<body>
+
+</body>
+</html>
+
+ 
